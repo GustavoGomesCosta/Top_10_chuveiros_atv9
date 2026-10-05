@@ -18,8 +18,8 @@ nav a {
     text-decoration: none;
 }
 .container {
-    transition: transform 0,3s ease, box-shadow 0.3s ease; 
-    background: #909192;
+    transition: transform 0,5s ease, box-shadow 0.3s ease; 
+    background: #4F4D55;
     width: 20%;
     margin: 20px auto;
     padding:20px;
@@ -50,13 +50,25 @@ img {
 }
 .container:hover{
     transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 20px #001F22;
+}
+.container1:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px #eee;
+}
+.container2:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px #676767;
+}
+.container3:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px #302500;
 }
         header h1 {
             font-size: 50px;
         }
         .container1 {
-    background: gold;
+    background: #FFEE00;
     width: 20%;
     margin: 20px auto;
     padding:20px;
@@ -64,7 +76,7 @@ img {
 
         }
         .container2 {
-    background: silver;
+    background: #B5AABD;
     width: 20%;
     margin: 20px auto;
     padding:20px;
@@ -80,3 +92,13 @@ img {
     border-radius: 10px;
             
         }
+    .sobre{
+    background-color: #42666F;
+    width: 20%;
+    margin: 20px auto;
+    padding:20px;
+    border-radius: 10px;    
+        }
+    .imgexb{
+     
+    }
